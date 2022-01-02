@@ -1,3 +1,54 @@
 .font {
-    font-size: 16px;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.header {
+    background-color:rgb(184, 184, 184);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    
+    
+}
+
+.nav-item {
+    color: #000;
+}
+
+.nav-link {
+    padding: 0px 20px 0px 0px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s;
+}
+
+
+.main {
+
+}
+
+.footer {
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
