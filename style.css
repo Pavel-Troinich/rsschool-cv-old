@@ -55,9 +55,19 @@
     padding-left: 50px;
 }
 
-.section h3 {
+.section h2 {
     color: #788379;
    
+}
+
+.section a {
+    color: #788379;
+    text-decoration: none;  
+    transition: color 0.3s;
+}
+
+.section a:hover {
+    color: #6c62ee;
 }
 
 @media (max-width: 768px) {
@@ -107,9 +117,12 @@
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
     min-height: 50px;
     background-color: rgb(214, 214, 214);
-    padding: 15px;
+    padding: 15px 50px;
+    margin-top: 50px;
 }
 
 .span {
