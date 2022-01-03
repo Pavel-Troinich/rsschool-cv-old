@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 <body class = "body">
-    <header class="header" style="border: 1px solid rgb(89, 252, 14);">
+    <header class="header">
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
@@ -21,19 +21,55 @@
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
-                    <li class="nav-item"><a href="#englisch" class="nav-link">Englisch</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main style="border: 1px solid rgb(89, 252, 14);">
-        <div class="container">
-            Здесь будет содержание
-        </div>
+    <main class="main-container">
+        <section class="name">
+            <p class="img"><img src="./assets/my.jpg" title="Pavel Troinich" alt="Foto"></p>
+            <h1>Pavel Troinich</h1>
+            <div class="name-div"></div>
+        </section>
+        <section class="section" id="contacts">
+            <h3>Contacts</h3>
+            <ul class="section-list">
+                <li>Tel. +372(29)863-07-59</li>
+                <li>E-mail tr.pav.ar@gmail.com                </li>
+                <li>Discord Pavel-Troinich#6079</li>
+            </ul>
+        </section>
+        <section class="section" id="about">
+            <h3>About me</h3>
+            <p>I started studying at RSScholl in order to change my field of activity. I hope that I will be able to become a good developer, even though I have not studied programming before.</p>
+        </section>
+        <section class="section" id="education">
+            <h3>Education</h3>
+            <p>I studied at BSUIR as a radio engineer. But I never got any work experience in my specialty. Now I work in the field of construction and repair.</p>
+        </section>
+        <section class="section" id="skills">
+            <h3>Skills</h3>
+            <ul class="section-list">
+                <li><b>HTML</b> - basic</li>
+                <li><b>CSS</b> - basic</li>
+                <li><b>JS</b> - basic</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h3>Code example</h3>
+            <code><pre>function multiply (a, b) {
+                return a * b
+                }</pre></code>
+        </section>
+        <section class="section" id="english">
+            <h3>English</h3>
+            <p>A1.  Breakthrough or beginner</p>
+        </section>
     </main>
-    <footer style="border: 1px solid rgb(89, 252, 14);">
-        <div class="container">
-            А тут подвал
+    <footer class="footer">
+        <div class="nav-item">
+           <span class="span">&copy 2022 <a href="https://github.com/Pavel-Troinich">Pavel-Troinich</a></span>
         </div>
     </footer>
 </body>
